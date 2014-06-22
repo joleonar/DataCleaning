@@ -27,3 +27,8 @@ it was performed to clean up the data.
   - tBodyAcc was labeled as TimeBodyAcc: Describe Body Acceleration in time
   - tGravityAcc was labeled as TimeGravityAcc: Describe Gravity Acceleration in time
   - tBodyGyro was labeled as  TimeBodyGyr: Describe Body Giroscope in time
+  - fBodyAcc was labeled as FreqBodyAcc: Describe Body Acceleration in frequency
+  - fGravityAcc was labeled as FreqGravityAcc: Describe Gravity Acceleration in frequency
+  - fBodyGyro was labeled as FreqBodyGyr: Describe Body Giroscope in frequency.
+11. The 
+ 
