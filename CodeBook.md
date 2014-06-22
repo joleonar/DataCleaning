@@ -16,11 +16,11 @@ it was performed to clean up the data.
 6.  There was extracted only the measurements on the mean and standard deviation for each measurement (patterns mean() and std()  ) we craete a second data frame with 81 columns.
 7.  The data was ordered by Activity and subject
 8. There were used Descriptive names for Activities the label were obtained from file "activity_lables.txt "
-   1 WALKING
-   2 WALKING_UPSTAIRS
-   3 WALKING_DOWNSTAIRS
-   4 SITTING
-   5 STANDING
-   6 LAYING
++   1 WALKING
++   2 WALKING_UPSTAIRS
++   3 WALKING_DOWNSTAIRS
++   4 SITTING
++   5 STANDING
++   6 LAYING
 9. 
 
