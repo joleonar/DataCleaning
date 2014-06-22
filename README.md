@@ -18,6 +18,4 @@ En parts 4 and 5 additionally are created  two text files: "Tidy_DataS_1.txt" in
 and standard deviation of each measurement. Contain  10299 rows and   81 columns. 
 
 
-"Tidy_DataS_2.txt": is a text file  with the average of the some variables for example
-I take the mean of: "TimeBodyAcc-Mean-X","TimeBodyAcc-Mean-Y", "TimeBodyAcc-Mean-Z" and create a new variable called 
-"TimeBodyAcc-Mean-XYZ.
+"Tidy_DataS_2.txt": is a text file  with the average of the variables for each Activity and each subject.
