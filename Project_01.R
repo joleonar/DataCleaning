@@ -70,51 +70,5 @@ write.table(Data_set3, file="Tidy_DataS_1.txt")
 ### Part 5. Creates a second, independent tidy data set with the
 # average of each variable for each activity and each subject.
 
-
-#Create a sequence number of the index number that represent same values
-sq1 <- seq(3,31,3);sq1b <- sq1+2
-sq2 <- seq(33,42,1)
-sq3 <- seq(43,67,3);sq3b <- sq3+2
-sq4 <- seq(70,81)
-
-sq <- c(1,2,sq1,sq2,sq3,sq4)
-nombres <- c("Activity","Subject",FT_val)
-
-nombres_n <- nombres[sq]
-
-for (i in seq_along(nombres_n)) {
-  nombres_n[i] <- gsub("X","XYZ",nombres_n[[i]])
-}
-
-A <- matrix(0, nrow=10299, ncol=length(sq))
-#A[,1] <- Data_set3[,1]
-#A[,2] <- Data_set3[,2]
-
-nc <-2
-for (i in seq_along(sq1)) {
-   A[,nc+i]<- rowMeans(Data_set3[,sq1[i]:sq1b[i]])
-}
-
-nc<-nc+length(sq1)
-for (i in seq_along(sq2)) {
-  A[,nc+i]<- Data_set3[,sq2[i]]
-}
-
-nc <- nc+length(sq2)
-for (i in seq_along(sq3)) {
-  A[,10+2+10+i]<- rowMeans(Data_set3[,sq3[i]:sq3b[i]])
-}
-
-nc <- nc+length(sq3)
-for (i in seq_along(sq4)) {
-  A[,10+2+10+9+i]<- Data_set3[,sq4[i]]
-}
-
-data_set4 <- as.data.frame(A)
-colnames(data_set4) <- nombres_n
-data_set4$Activity <- Data_set3[,1]
-data_set4$Subject <- Data_set3[,2]
-
-
-data_set5 <- aggregate(. ~ Subject+Activity,data = data_set4,FUN=mean )
-write.table(data_set5, file="Tidy_DataS_2.txt")
+Data_set4 <- aggregate(. ~ Subject+Activity,data = Data_set3,FUN=mean )
+write.table(data_set4, file="Tidy_DataS_2.txt")
