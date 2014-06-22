@@ -30,7 +30,7 @@ it was performed to clean up the data.
   - fBodyAcc was labeled as "FreqBodyAcc": Describe Body Acceleration in frequency
   - fGravityAcc was labeled as "FreqGravityAcc": Describe Gravity Acceleration in frequency
   - fBodyGyro was labeled as "FreqBodyGyr": Describe Body Giroscope in frequency.
-  - X, Y and Z refer to the components X Y and Z of tha variables
+  - X, Y and Z refer to the components X Y and Z of the variables
   
 10. A file called "Tidy_Data_S.txt" was created and uploaded. This file contain 10299 rows and 81 columns as it was described above. (Activities using descriptive names + Subject + 79 variables related with "mean" and "standard deviation"). Data set was labeled set with descriptive variable names. There was found a typo in some of the names (i.e. fBodyBodyAccJerkMag). There was manually changed by fBodyAccJerkMag in "features.txt" file
  
