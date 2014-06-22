@@ -35,7 +35,6 @@ it was performed to clean up the data.
   - fBodyGyro was labeled as "FreqBodyGyr": Describe Body Giroscope in frequency.
   - X, Y and Z refer to the components X Y and Z of the variables
   
-8. A file called "Tidy_Data_S.txt" was created and uploaded. This file contain 10299 rows and 81 columns as it was described above. (Activities using descriptive names + Subject + 79 variables related with "mean" and "standard deviation"). Data set was labeled set with descriptive variable names. There was found a typo in some of the names (i.e. fBodyBodyAccJerkMag). There was manually changed by fBodyAccJerkMag in "features.txt" file.
+8. A file called "Tidy_DataS_1.txt" was created and uploaded. This file contain 10299 rows and 81 columns as it was described above. (Activities using descriptive names + Subject + 79 variables related with "mean" and "standard deviation"). Data set was labeled set with descriptive variable names. There was found a typo in some of the names (i.e. fBodyBodyAccJerkMag). There was manually changed by fBodyAccJerkMag in "features.txt" file.
 
-9.  In the las part of the project there was selected variables there was created  independent tidy data set with the 
-average of each variable for each activity and each subject. 
+9.  In the last part of the project there created  independent tidy data set with the average of each variable for each activity and each subject. Tha data set loaded is called "Tidy_DataS_2.txt" contain 180 rows and 81 columns as it was described above.
